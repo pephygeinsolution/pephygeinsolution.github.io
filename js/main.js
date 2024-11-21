@@ -46,20 +46,22 @@
         time: 2000
     });
 
+// Header carousel
+$(".header-carousel").owlCarousel({
+    autoplay: true,
+    autoplayTimeout: 60000, // 1 minute (time slide stays visible)
+    smartSpeed: 60000, // 1 minute (time for slide transition animation)
+    items: 1,
+    dots: true,
+    loop: true,
+    nav: true,
+    navText: [
+        '<i class="bi bi-chevron-left"></i>',
+        '<i class="bi bi-chevron-right"></i>'
+    ]
+});
 
-    // Header carousel
-    $(".header-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 60000,
-        items: 1,
-        dots: true,
-        loop: true,
-        nav : true,
-        navText : [
-            '<i class="bi bi-chevron-left"></i>',
-            '<i class="bi bi-chevron-right"></i>'
-        ]
-    });
+    
 
 
     // Testimonials carousel
