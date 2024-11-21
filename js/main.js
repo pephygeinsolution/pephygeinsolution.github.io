@@ -49,7 +49,7 @@
 // Header carousel
 $(".header-carousel").owlCarousel({
     autoplay: true,
-    autoplayTimeout: 90000,
+    autoplayTimeout: 60000,
     smartSpeed: 1500,
     items: 1,
     dots: true,
